@@ -1,0 +1,124 @@
+.CodeMirror
+{
+    font-family: consolas;
+    font-size: 20px;
+}
+.memoryCell
+{
+    position: absolute;
+    width: 190px;
+    height: 32px;
+    background-image: url('rsc/memoryCell2.png');
+    background-color: #333;
+    box-shadow: 1px 1px 1px 1px #00000030;
+}
+.memoryCell:hover
+{
+    outline: solid rgba(0, 217, 255, 0.8) 1px;
+}
+.memoryCell:active
+{
+    outline: solid rgba(0, 255, 0, 0.8) 1px;
+}
+.valueText
+{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.memoryLedRead
+{
+    position: absolute;
+    width: 5px;
+    height: 11px;
+    background-color: transparent;
+    margin-left: 182px;
+    margin-top: 3px;
+}
+.memoryLedWrite
+{
+    position: absolute;
+    width: 5px;
+    height: 11px;
+    background-color: transparent;
+    margin-left: 182px;
+    margin-top: 18px;
+}
+
+#playButton
+{
+    position : absolute;
+    background-color : #4A4A4A;
+    top : 4px;
+    left : 4px;
+    width : 32px;
+    height : 32px;
+    background-image : url('rsc/playButton.png');
+}
+#playButton:hover
+{
+    background-color : #555555;
+}
+#playButton:active
+{
+    background-color : steelblue;
+}
+
+#stopButton
+{
+    position : absolute;
+    background-color : #4A4A4A;
+    top : 4px;
+    left : 40px;
+    width : 32px;
+    height : 32px;
+    background-image : url('rsc/stopButton.png');
+}
+#stopButton:hover
+{
+    background-color : #555555;
+}
+#stopButton:active
+{
+    background-color : steelblue;
+}
+
+#stepButton
+{
+    position : absolute;
+    background-color : #4A4A4A;
+    top : 4px;
+    left : 74px;
+    width : 32px;
+    height : 32px;
+    background-image : url('rsc/stepButton.png');
+}
+#stepButton:hover
+{
+    background-color : #555555;
+}
+#stepButton:active
+{
+    background-color : steelblue;
+}
+
+.lineParsed {
+    background: steelblue;
+}
+
+#tpiInput
+{
+    position : absolute;
+    background-color : rgb(100, 100, 100);
+    color: #D3A223;
+    top : 8px;
+    left : 410px;
+    width : 64px;
+    height : 20px;
+    font-family: Consolas;
+    font-size: 20px;
+    text-align: center;
+}
